@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:background="@color/green"
+    tools:context=".activite.LoginActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginBottom="20sp"
+            android:paddingBottom="@dimen/dp4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70sp"
+                android:src="@drawable/ic_app"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40sp"
+                android:text="Diaspora Finder"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp48"
+                android:layout_marginRight="@dimen/dp4"
+                android:gravity="center_vertical|left"
+                android:text="Email"
+                android:textSize="15dp"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_email_black_48dp"
+                    />
+                <EditText
+                    android:id="@+id/identityField"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                     android:textSize="20dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="25sp"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp48"
+                android:layout_marginRight="@dimen/dp4"
+                android:gravity="center_vertical|left"
+                android:text="Password"
+                android:textSize="15dp"
+
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_lock_black_48dp"
+                    />
+                <EditText
+                    android:id="@+id/passwordField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+
+                    android:gravity="center_vertical"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:textSize="20dp"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp4"
+            android:layout_marginTop="@dimen/dp16"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+
+                >
+                <Button
+                    android:id="@+id/registerLink"
+                    android:layout_width="@dimen/dp144"
+                    android:layout_height="@dimen/dp48"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:text="Register"
+                    android:textSize="@dimen/text_medium"
+                    android:background="@drawable/transparent_button_selector"
+                    android:layout_marginRight="15sp"
+                    />
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="@dimen/dp144"
+                    android:layout_height="@dimen/dp48"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:text="@string/login_text"
+                    android:textSize="@dimen/text_medium"
+                    android:background="@drawable/transparent_button_selector"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20sp"
+              >
+            <TextView
+                android:id="@+id/restoreLink"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp48"
+                android:layout_marginLeft="@dimen/dp4"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                 android:text="Forgot password?"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

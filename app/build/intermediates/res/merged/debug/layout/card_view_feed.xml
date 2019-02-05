@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools/feeds"
+    android:id="@+id/cardFeed"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+         android:layout_margin="5sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="24dp"
+        android:elevation="25dp"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/OwnerContains"
+                >
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profil"
+                    app:siBorderWidth="1dp"
+                    app:siBorderColor="#ffffff"
+
+                    android:id="@+id/profilPost"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                         android:id="@+id/namePost"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:id="@+id/nationalityPost"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                         android:id="@+id/timePost"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="350sp"
+                card_view:cardCornerRadius="10dp"
+                android:elevation="150dp"
+
+                >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                         android:id="@+id/imagePost"
+                        android:padding="10sp"
+                        />
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:maxHeight="80dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:id="@+id/popularity"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:maxHeight="80dp"
+                    android:textColor="#000000"
+                    android:text="0 Likes"
+                    android:gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/likeNumber"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:maxHeight="80dp"
+                    android:textColor="#000000"
+                    android:text="0 Comments"
+                    android:gravity="right"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/commentNumber"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="_"
+                android:background="#4a8148"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                 >
+
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginLeft="10sp"
+                     android:id="@+id/likePost"
+                    android:background="@drawable/ic_thumb_up_black_48dp"
+                    />
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:id="@+id/commentPost"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:background="@drawable/ic_comment_black_48dp"
+                    />
+
+
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                     android:id="@+id/editPost"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                     android:background="@drawable/ic_mode_edit_black_48dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

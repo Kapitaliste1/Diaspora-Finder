@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a8148</color>
+    <color name="colorPrimaryDark">#277c4f</color>
+    <color name="colorAccent">#535353</color>
+    <color name="main_color_grey_300">@color/material_grey_300</color>
+    <color name="greeDraaa">#E0F8EC</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#190707</color>
+    <color name="green">#D8F6CE</color>
+    <color name="blan">#FFFFFF</color>
+
+
+
+
+
+
+</resources>

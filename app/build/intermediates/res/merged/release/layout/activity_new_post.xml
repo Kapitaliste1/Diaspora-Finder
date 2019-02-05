@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/green"
+    android:orientation="vertical"
+     tools:context="com.esprit.diasporafinder.activite.NewPostActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp48"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/dp4">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_large"
+                android:layout_marginLeft="@dimen/dp4"
+                android:text="Add New Post"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+
+            >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="350sp"
+                card_view:cardCornerRadius="10dp"
+                android:elevation="150dp"
+                android:id="@+id/imageNewPostVisible"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/sea"
+                    android:id="@+id/imageNewPost"
+                    android:padding="10sp"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50sp"
+                android:inputType="textMultiLine"
+                 android:id="@+id/contentPost"
+                android:layout_column="0"
+                android:layout_marginTop="30sp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                />
+
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="right"
+               android:layout_marginTop="10sp"
+               >
+               <Button
+                   android:layout_width="40sp"
+                   android:layout_height="40sp"
+                   android:id="@+id/uploadPhoto"
+                   android:layout_gravity="right"
+                   android:layout_marginTop="@dimen/dp4"
+                   android:textSize="@dimen/text_medium"
+                   android:background="@drawable/ic_add_a_photo_black_48dp"
+                   android:layout_marginRight="20sp"
+                   android:height="@dimen/dp40"
+                   />
+               <Button
+                   android:layout_width="40sp"
+                   android:layout_height="40sp"
+                   android:id="@+id/publish"
+                   android:background="@drawable/ic_send_black_48dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="@dimen/dp4"
+                   android:textSize="@dimen/text_medium"
+                   android:height="@dimen/dp40"/>
+
+           </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,259 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/green"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.esprit.diasporafinder.fragments.ToolsFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Profil Details"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="5sp"
+            android:layout_height="wrap_content"
+            >
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                 android:layout_gravity="center"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/profil"
+                app:siBorderWidth="2dp"
+                app:siBorderColor="#FFFFFF"
+                android:id="@+id/profilSetting"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                >
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                     android:background="@drawable/ic_mode_edit_black_48dp"
+                    android:id="@+id/updatePicture"
+                    android:layout_marginRight="10sp"
+                    />
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                     android:id="@+id/deletePicture"
+                    android:background="@drawable/ic_delete_forever_black_48dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp"
+            >
+            <ImageView
+                 android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/sea"
+                android:id="@+id/coverSetting"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                >
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:background="@drawable/ic_mode_edit_black_48dp"
+                     android:id="@+id/updateCover"
+                    android:layout_marginRight="10sp"
+                     />
+                <Button
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:background="@drawable/ic_delete_forever_black_48dp"
+                     android:id="@+id/deleteCover"
+                    android:layout_gravity="right"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center|left"
+                android:layout_margin="15sp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email :"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Current email"
+                    android:id="@+id/existingEmail"
+                    android:background="@color/blan"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="New email"
+                    android:minHeight="40sp"
+                    android:id="@+id/emailSetting"
+                    android:background="@color/blan"
+                    android:layout_marginTop="10sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center|left"
+                android:layout_margin="15sp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name :"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="New Name"
+                    android:id="@+id/nameSetting"
+                    android:background="@color/blan"
+                    android:minHeight="40sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center|left"
+                android:layout_margin="15sp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password :"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    />
+
+
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:id="@+id/passwod2"
+                    android:hint="New Password"
+                    android:background="@color/blan"
+                    android:layout_marginTop="10sp"
+                    android:minHeight="40sp"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:id="@+id/passwod3"
+                    android:hint="Verify Password"
+                    android:background="@color/blan"
+                    android:layout_marginTop="10sp"
+                    android:minHeight="40sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:id="@+id/saveChanges"
+            android:background="@drawable/technology"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:text="Save Changes"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="3sp"
+    android:background="@color/red"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="10sp"
+    />
+        <Button
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/social"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/deleteProfil"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Delete Account"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>

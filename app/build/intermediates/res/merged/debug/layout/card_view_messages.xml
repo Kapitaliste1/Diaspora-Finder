@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools/messages"
+    android:id="@+id/cardMessages"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_messages"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="24dp"
+        android:elevation="50dp"
+        >
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="top"
+                android:id="@+id/rawMessage"
+                >
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/profil"
+                    app:siBorderWidth="1dp"
+                    app:siBorderColor="#5EFF00"
+                    android:id="@+id/profilMessages"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                         android:id="@+id/nameSenderMessage"
+                        android:gravity="center"
+                        android:layout_marginBottom="2sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                         />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                          android:id="@+id/citySender"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+     </android.support.v7.widget.CardView>
+
+</FrameLayout>

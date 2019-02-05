@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      tools:context="com.esprit.diasporafinder.fragments.HistoriqueFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/historique_recyclerView"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:text="You are not following anybody, please try to follow someone!\n You'll find nearest person in 'Finder'."
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/nonFollow"
+            android:padding="10sp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

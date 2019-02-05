@@ -1,0 +1,28 @@
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.esprit.diasporafinder.activite.PushReceiver { <init>(); }
+-keep class com.esprit.diasporafinder.activite.LoginActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.PasswordRecoveryRequestedActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.RegisterActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.RestorePasswordActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.HomePageActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.NewPostActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.UploadingActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.MapsActivity { <init>(); }
+-keep class com.esprit.diasporafinder.activite.SplashActivity { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

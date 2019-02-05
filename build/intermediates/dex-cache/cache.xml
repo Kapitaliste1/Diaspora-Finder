@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_377b3dfdfc3f0f4a4b3e6d3f43b3d52f3767f231.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-8.4.0_cc31a3c48138a74af8035188f85239016ae2eb06.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.4.0_731e11a1136608d68f3958a22cd5d369a742bd56.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-8.4.0_94bb9b13346009091323ab4ce1269effa691d1a5.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_ddfcf5e7b22d7cd338eec9504eeaa6008beb2878.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_239e73cbee8c6cf41e6061398300c98878e6c4c7.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_9ecc90f4567b78fedf4d19d14c8cfeab7f14120c.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_461905cd0d57866363c92d050c34cd57122ca224.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-8.4.0_ef8f69f12e8fafbf4d6c4ab41c42d5c53d66ec97.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_7a44b753adf70daefddcd2d52b97ef301cfa8096.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-8.4.0_54c80db78bc4c544756d46484324109e78d917b8.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.4.0_8ab88ed72bd5bbde27cb77a54e8544e89471130a.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.4.0_6d3dcefbab6db977a5344baf97d567209aec86c3.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-8.4.0_87c61ee0cd7031ccca5d9b56c4c293daae45db1e.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.4.0_58704bf90e586788ea0302ea6a9f7a1a7c612e28.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.github.siyamed\android-shape-imageview\0.9.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee07783aa59eefdeacc107abf472f45f60272302">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.github.siyamed-android-shape-imageview-0.9.3_7f85dfc8111943fa54084a5e2558bfb3f80f0003.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_6b228806b3eebb2e225fe469ec38160634928bb6.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_e97d86643d0828d9dacc6d20ae6413d5e2f63ed8.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_2429627b8e764da38e011205c1e6efb16a51be40.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_0e1ca08cc05567cde5fc259b005f3065a072d9a3.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\libs\backendless-3.0.8.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2252663881377a39cb8700a0bc3c0dcd9172672b">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\backendless-3.0.8.1_88ce7dbcef89affa423cf07175b093944d17ee2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bourgeois\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_f0ad2e1480503b39465103b04e133bd376943eed.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-8.4.0_d4ce2097c4f9277accc4672d20a4e740fe74f9ce.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-8.4.0_ee877518cee43981d384bd6cc580801fbf748642.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_a01effc44d630a37ba5476a301061e8c41b96f8a.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-8.4.0_3c671005ee84f0c85d14f7d12bd9b5acfe0ae828.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-multidex-1.0.0_1f9431d27f372ad202489e2903da6469035a9576.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bourgeois\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_9e7f57084ee707cfb84761c7b562306d3dd56d43.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-8.4.0_7e5dc2edcc554c1bcf5acf3003e441273befa487.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.4.0_7601d7df7747a5e35aeabc59ef97dcda1622c514.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-8.4.0_001e23be5d522f725945850c53dc52a5ff1b7275.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_5fa067f9a7195f78ed68db492f00247dc3baad58.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-8.4.0_bff538989424a0a236a2f7bc6dd8848dcaa7318a.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_eda65fe99b725db9a11bcec3a38e9a85936bf4af.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.4.0_a6058a8dc88f5f46af2a8fb2916dbee8eae65d86.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_38eb5dd05df76980713d38cd306c5b30049bb894.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_073c08d9069e0549cd2f9a0b2111cd0cd7be3cff.jar" />
+    </item>
+    <item
+        jar="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="D:\Android Bis\Versionning\No idea\err\DiasporaFinder\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.2.1_61323487896655eb895e01c1e0b8a46de3bd0e07.jar" />
+    </item>
+
+</items>

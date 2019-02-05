@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+     <android.support.v7.widget.CardView
+         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/card_view_chat"
+         android:layout_gravity="center"
+         android:layout_margin="5sp"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         card_view:cardCornerRadius="4dp"
+         android:elevation="50dp"
+         >
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:id="@+id/sender"
+               android:paddingBottom="10sp"
+             android:paddingTop="10sp"
+              >
+             <com.github.siyamed.shapeimageview.CircularImageView
+                 android:layout_marginLeft="5dp"
+                 android:layout_gravity="left"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                  app:siBorderWidth="1dp"
+                 app:siBorderColor="#5EFF00"
+                 android:id="@+id/senderPic"
+                 />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:gravity="center"
+                 android:layout_marginLeft="10sp"
+                  android:layout_marginRight="10sp"
+                 android:shadowRadius="20"
+
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:id="@+id/senderName"
+                     android:gravity="center"
+                      android:layout_marginBottom="10sp"
+                     android:layout_marginTop="5sp"
+                     android:textColor="@color/black"
+                    android:textStyle="bold"
+                     android:textSize="20sp"
+                     />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:id="@+id/senderContent"
+                     android:gravity="left"
+                      android:layout_marginBottom="2sp"
+
+                     />
+
+
+
+
+             </LinearLayout>
+
+
+
+         </LinearLayout>
+
+
+
+
+
+
+
+
+     </android.support.v7.widget.CardView>
+
+ </FrameLayout>

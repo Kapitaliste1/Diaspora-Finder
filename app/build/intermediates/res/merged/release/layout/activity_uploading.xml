@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:padding="@dimen/default_margin"
+    android:background="@color/green"
+    tools:context="com.esprit.diasporafinder.Data.UploadingActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginBottom="20sp"
+        android:paddingBottom="@dimen/dp4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:src="@drawable/ic_app"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:text="Diaspora Finder"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageContainer"
+        android:orientation="vertical" android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploading..."
+            android:layout_marginBottom="@dimen/small_padding" android:textSize="@dimen/normal_text"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
